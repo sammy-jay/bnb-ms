@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const BottomBar = () => {
   return (
-    <div className="w-full py-2 fixed bottom-0 left-0 right-0 shadow bg-[#212244] flex flex-row justify-around items-center">
+    <div className="w-full lg:max-w-[600px] lg:mx-auto py-2 fixed bottom-0 left-0 right-0 shadow bg-[#212244] flex flex-row justify-around items-center">
       <Link
         href="/"
         className="flex flex-col space-y-1 text-white justify-center items-center text-[12px] cursor-pointer transition-all hover:scale-110"
